@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export VIRTUALHOSTS='/virtualhosts'
+
+export SITES_AVAILABLE='/etc/apache2/sites-available'
+
+export SITES_ENABLED='/etc/apache2/sites-enabled'
+
+export SA='/etc/apache2/sites-available'
+
+export SE='/etc/apache2/sites-enabled'
