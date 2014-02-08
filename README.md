@@ -1,4 +1,4 @@
 BashConfigs
 ===========
 
-My Bash Configs
+Bash Configs use with [bash-it](https://github.com/vpassapera/bash-it)
