@@ -1,4 +1,4 @@
-rm ../.bash_aliases ../.bash_exports ../.bash_logout ../.bash_profile ../.bashrc ../.bash_symfony_autocomplete
+rm .bash_aliases .bash_exports .bash_logout .bash_profile .bashrc .bash_symfony_autocomplete 2> /dev/null
 ln -s bash_aliases ../.bash_aliases
 ln -s bash_exports ../.bash_exports
 ln -s bash_logout ../.bash_logout
