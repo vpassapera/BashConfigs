@@ -36,4 +36,9 @@ ln -s $HOME/.bash/bash_logout $HOME/.bash_logout
 ln -s $HOME/.bash/bash_profile $HOME/.bash_profile
 ln -s $HOME/.bash/bashrc $HOME/.bashrc
 ln -s $HOME/.bash/bash_symfony_autocomplete $HOME/.bash_symfony_autocomplete
+
+echo "Re-sourcing..."
+source ~/.bashrc
+
 echo "Done."
+
