@@ -38,7 +38,7 @@ ln -s $HOME/.bash/bashrc $HOME/.bashrc
 ln -s $HOME/.bash/bash_symfony_autocomplete $HOME/.bash_symfony_autocomplete
 
 echo "Re-sourcing..."
-source ~/.bashrc
+source $HOME/.bashrc
 
 echo "Done."
 
