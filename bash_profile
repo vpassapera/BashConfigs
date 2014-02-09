@@ -16,8 +16,8 @@ export BASH_IT_THEME='candy_redone'
 export GIT_HOSTING='vpassapera@github.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/bin/mate -w"
-export GIT_EDITOR='/usr/bin/mate -w'
+export EDITOR="/usr/bin/nano"
+export GIT_EDITOR='/usr/bin/nano'
 
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
