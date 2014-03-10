@@ -46,7 +46,7 @@ fi
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
-
+IFS="`printf '\n\t'`"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
