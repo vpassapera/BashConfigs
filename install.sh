@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 echo "Enabling Aliases..."
 rm -r $HOME/.bash_it/aliases/enabled 2> /dev/null
 mkdir -p $HOME/.bash_it/aliases/enabled
