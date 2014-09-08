@@ -6,4 +6,3 @@ function setDebug() {
 
 alias debug_on="setDebug"
 alias debug_off='unset XDEBUG_CONFIG'
-alias packer='/home/vpassapera/Applications/packer/packer'
