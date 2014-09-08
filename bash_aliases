@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-function setDebug() {
+#PHPStorm XDebug ENV
+function setXDebug() {
     export XDEBUG_CONFIG="idekey=PHPSTORM"
 }
 
-alias debug_on="setDebug"
-alias debug_off='unset XDEBUG_CONFIG'
-alias packer='/home/vpassapera/Applications/packer/packer'
+alias xdebug_on="setXDebug"
+alias xdebug_off='unset XDEBUG_CONFIG'
