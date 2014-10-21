@@ -17,8 +17,8 @@ export BASH_IT_THEME='candy-alt'
 export GIT_HOSTING='git@github.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/bin/nano"
-export GIT_EDITOR='/usr/bin/nano'
+export EDITOR=$(which nano)
+export GIT_EDITOR=$(which nano)
 
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
