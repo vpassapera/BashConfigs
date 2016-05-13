@@ -11,7 +11,7 @@ function composer() {
 
 function update-bash-configs() {
     currdir=$(pwd);
-    cd /home/vagrant/.bash && git fetch origin && git pull origin master && cd $currdir
+    cd ~/.bash && git fetch origin && git pull origin master && cd $currdir
 }
 
 #PHPStorm XDebug ENV
