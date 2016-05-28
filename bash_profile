@@ -68,7 +68,7 @@ if ! shopt -oq posix; then
 fi
 
 # Add rvm gems and nginx to the path
-export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin:$GOPATH/bin
+export PATH=$PATH:~/.local/bin:~/.gem/ruby/1.8/bin:/opt/nginx/sbin:$GOPATH/bin
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
