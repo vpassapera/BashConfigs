@@ -9,14 +9,14 @@ ln -s $HOME/.bash_it/aliases/available/vagrant.aliases.bash $HOME/.bash_it/alias
 echo "Enabling Completion..."
 rm -r $HOME/.bash_it/completion/enabled 2> /dev/null
 mkdir -p $HOME/.bash_it/completion/enabled
-ln -s $HOME/.bash_it/aliases/available/bash-it.completion.bash $HOME/.bash_it/aliases/enabled/bash-it.completion.bash
-ln -s $HOME/.bash_it/aliases/available/capistrano.completion.bash $HOME/.bash_it/aliases/enabled/capistrano.completion.bash
-ln -s $HOME/.bash_it/aliases/available/defaults.completion.bash $HOME/.bash_it/aliases/enabled/defaults.completion.bash
-ln -s $HOME/.bash_it/aliases/available/gem.completion.bash $HOME/.bash_it/aliases/enabled/gem.completion.bash
-ln -s $HOME/.bash_it/aliases/available/git.completion.bash $HOME/.bash_it/aliases/enabled/git.completion.bash
-ln -s $HOME/.bash_it/aliases/available/git_flow.completion.bash $HOME/.bash_it/aliases/enabled/git_flow.completion.bash
-ln -s $HOME/.bash_it/aliases/available/grunt.completion.bash $HOME/.bash_it/aliases/enabled/grunt.completion.bash
-ln -s $HOME/.bash_it/aliases/available/ssh.completion.bash $HOME/.bash_it/aliases/enabled/ssh.completion.bash
+ln -s $HOME/.bash_it/completion/available/bash-it.completion.bash $HOME/.bash_it/completion/enabled/bash-it.completion.bash
+ln -s $HOME/.bash_it/completion/available/capistrano.completion.bash $HOME/.bash_it/completion/enabled/capistrano.completion.bash
+ln -s $HOME/.bash_it/completion/available/defaults.completion.bash $HOME/.bash_it/completion/enabled/defaults.completion.bash
+ln -s $HOME/.bash_it/completion/available/gem.completion.bash $HOME/.bash_it/completion/enabled/gem.completion.bash
+ln -s $HOME/.bash_it/completion/available/git.completion.bash $HOME/.bash_it/completion/enabled/git.completion.bash
+ln -s $HOME/.bash_it/completion/available/git_flow.completion.bash $HOME/.bash_it/completion/enabled/git_flow.completion.bash
+ln -s $HOME/.bash_it/completion/available/grunt.completion.bash $HOME/.bash_it/completion/enabled/grunt.completion.bash
+ln -s $HOME/.bash_it/completion/available/ssh.completion.bash $HOME/.bash_it/completion/enabled/ssh.completion.bash
 
 echo "Enabling Plugins..."
 rm -r $HOME/.bash_it/plugins/enabled 2> /dev/null
