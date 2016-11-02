@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-#Composer no xdebug
-function composer() {
-    COMPOSER="$(which composer)" || { echo "Could not find composer in path" >&2 ; return 1 ; } && sudo phpdismod -v $(phpquery -V) -s cli xdebug ;
-    $COMPOSER "$@" ;
-    STATUS=$? ;
-    sudo phpenmod -v $(phpquery -V) -s cli xdebug ;
-    return $STATUS ;
-}
+# Public IP address
+alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 function update-bash-configs() {
     currdir=$(pwd);
@@ -22,7 +16,9 @@ function setXDebug() {
 alias xdebug_on="setXDebug"
 alias xdebug_off='unset XDEBUG_CONFIG'
 alias cafe='cat /dev/urandom | hexdump -C | grep "ca fe"'
-
+alias ssh-register-agent='eval $(ssh-agent) && ssh-add'
+alias docker-clean='docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
+alias docker-rebuild='docker-clean && docker build .'
 
 if [ -c ~/.bash/local_aliases ]; then
     . ~/.bash/local_aliases
