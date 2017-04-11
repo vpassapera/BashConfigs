@@ -20,6 +20,7 @@ alias ssh-register-agent='eval $(ssh-agent) && ssh-add'
 alias docker-clean='docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
 alias docker-rebuild='docker-clean && docker build .'
 alias moo="fortune -s fortunes | cowsay"
+alias top="htop"
 
 if [ -c ~/.bash/local_aliases ]; then
     . ~/.bash/local_aliases
