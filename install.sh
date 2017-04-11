@@ -17,6 +17,12 @@ ln -s $HOME/.bash_it/completion/available/git.completion.bash $HOME/.bash_it/com
 ln -s $HOME/.bash_it/completion/available/git_flow.completion.bash $HOME/.bash_it/completion/enabled/git_flow.completion.bash
 ln -s $HOME/.bash_it/completion/available/grunt.completion.bash $HOME/.bash_it/completion/enabled/grunt.completion.bash
 ln -s $HOME/.bash_it/completion/available/ssh.completion.bash $HOME/.bash_it/completion/enabled/ssh.completion.bash
+ln -s $HOME/.bash_it/completion/available/vagrant.completion.bash $HOME/.bash_it/completion/enabled/vagrant.completion.bash
+ln -s $HOME/.bash_it/completion/available/composer.completion.bash $HOME/.bash_it/completion/enabled/composer.completion.bash
+ln -s $HOME/.bash_it/completion/available/dirs.completion.bash $HOME/.bash_it/completion/enabled/dirs.completion.bash
+ln -s $HOME/.bash_it/completion/available/pip.completion.bash $HOME/.bash_it/completion/enabled/pip.completion.bash
+ln -s $HOME/.bash_it/completion/available/system.completion.bash $HOME/.bash_it/completion/enabled/system.completion.bash
+
 
 echo "Enabling Plugins..."
 rm -r $HOME/.bash_it/plugins/enabled 2> /dev/null
@@ -28,6 +34,7 @@ ln -s $HOME/.bash_it/plugins/available/extract.plugin.bash $HOME/.bash_it/plugin
 ln -s $HOME/.bash_it/plugins/available/git.plugin.bash $HOME/.bash_it/plugins/enabled/git.plugin.bash
 ln -s $HOME/.bash_it/plugins/available/ssh.plugin.bash $HOME/.bash_it/plugins/enabled/ssh.plugin.bash
 ln -s $HOME/.bash_it/plugins/available/vagrant.plugin.bash $HOME/.bash_it/plugins/enabled/vagrant.plugin.bash
+ln -s $HOME/.bash_it/plugins/available/alias-completion.plugin.bash $HOME/.bash_it/plugins/enabled/alias-completion.plugin.bash
 
 echo "Removing previous bash configurations"...
 rm $HOME/.bash_aliases $HOME/.bash_exports $HOME/.bash_logout $HOME/.bash_profile $HOME/.bashrc $HOME/.bash_symfony_autocomplete 2> /dev/null
