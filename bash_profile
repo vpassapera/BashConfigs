@@ -70,5 +70,7 @@ fi
 # Add rvm gems and nginx to the path
 export PATH=$PATH:~/.local/bin:~/.gem/ruby/1.8/bin:/opt/nginx/sbin:$GOPATH/bin
 
+eval $(thefuck --alias)
+
 # Load Bash It
 source $BASH_IT/bash_it.sh
