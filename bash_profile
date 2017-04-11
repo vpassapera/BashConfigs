@@ -69,6 +69,7 @@ fi
 
 # Add rvm gems and nginx to the path
 export PATH=$PATH:~/.local/bin:~/.gem/ruby/1.8/bin:/opt/nginx/sbin:$GOPATH/bin
+export ANSIBLE_NOCOWS=1
 
 eval $(thefuck --alias)
 
