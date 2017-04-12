@@ -71,7 +71,9 @@ fi
 export PATH=$PATH:~/.local/bin:~/.gem/ruby/1.8/bin:/opt/nginx/sbin:$GOPATH/bin
 export ANSIBLE_NOCOWS=1
 
-eval $(thefuck --alias)
+if hash thefuck 2>/dev/null; then
+    eval $(thefuck --alias)
+fi
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
