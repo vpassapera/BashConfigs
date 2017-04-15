@@ -21,6 +21,7 @@ alias docker-clean='docker rm $(docker ps -a -q) && docker rmi $(docker images -
 alias docker-rebuild='docker-clean && docker build .'
 alias moo="fortune -s fortunes | cowsay"
 alias top="htop"
+alias lvm-mirror-status="sudo lvs -a -o +devices"
 
 if [ -c ~/.bash/local_aliases ]; then
     . ~/.bash/local_aliases
